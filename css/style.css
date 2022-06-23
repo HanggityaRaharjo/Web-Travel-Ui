@@ -1,0 +1,48 @@
+nav {
+  opacity: 0.8;
+}
+nav:hover {
+    opacity: 1;
+  }
+
+nav .menu a:hover {
+  text-decoration: underline;
+}
+
+/* nav {
+  opacity: 1;
+} */
+
+header {
+  position: relative;
+  background: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.5;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+main .card {
+  border: 2px solid black;
+  margin-bottom: 2px;
+  
+}
